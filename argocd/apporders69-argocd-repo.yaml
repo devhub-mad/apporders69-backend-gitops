@@ -1,0 +1,10 @@
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: apporders69-repo
+  namespace: devhub
+  labels:
+    argocd.argoproj.io/secret-type: repository
+stringData:
+  url: https://github.com/devhub-mad/apporders69-backend-gitops

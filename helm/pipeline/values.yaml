@@ -1,0 +1,15 @@
+app:
+  name: apporders69
+  namespace: devhub
+  cluster: .apps.cluster-wdl5h.wdl5h.sandbox2975.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/devhub-mad/apporders69-backend
+  org: devhub-mad
+  name: apporders69-backend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: apporders69-backend
+  tag: latest
